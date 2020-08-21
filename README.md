@@ -4,7 +4,7 @@ Esta libreria está implementada en **JAVA** para la materia de **AREP**
 
 Su principal funcionamiento se centra en una Calculadora de estadistica WEB con las funciones de **promedio** y **desviación media** implementadas, se ha realizado la construcción de una **Linked  List** a partir de la teoría conocida y por la cual se generan los calculos necesarios. el servicio web se encuentra alojado en Heroku.
 
-Para conocer mayor información de la implementación del sistema puede ver el documento [INFORME](AREP_TALLER02.pdf)
+Para conocer mayor información de la implementación del sistema puede ver el documento [INFORME](AREP_TALLER02.pdf) o el [DIAGRAMA.](Diagram.asta)
 
 ## Getting Started
 
