@@ -8,7 +8,11 @@ Para conocer mayor información de la implementación del sistema puede ver el d
 
 ## Getting Started
 
-Principalmente se recomienda clonar el repositorio a su computadora, como opción puede realizarlo por medio del siguiente comando:
+
+Principalmente para dar un vistazo del funcionamiento en despliegue puede ir a la siguiente ruta en 
+[Heroku Deploy](https://frozen-castle-59599.herokuapp.com/datos) , aquí encontrará la aplicación corriendo.
+
+se recomienda clonar el repositorio a su computadora, como opción puede realizarlo por medio del siguiente comando:
 
 ``` git clone https://github.com/IJuanchoG/AREP_Taller_02_sparkWeb.git```
 
@@ -27,17 +31,33 @@ se pueden ejecutar desde el IDE de preferencia o desde comandos MVN tales como
 
 ```mvn surefire:test```
 
-Con el fin de correr el programa ejecute la siguiente instrucción:
+Con el fin de correr el programa ejecute la siguiente instrucción puede hacerlo de varias maneras:
 
-###Windows:
+###1. Por JAVA
+
+####Windows:
 ```
 java -cp target/classes;target/dependency/* edu.eci.arep.sparkwebapp.SparkWebApp
 ```
 
-###Linux:
+####Linux:
 ```
 java -cp target/classes:target/dependency/* edu.eci.arep.sparkwebapp.SparkWebApp
 ```
+
+de este modo la aplicación web se ejecutará en local con la siguiente [ruta.](http://localhost:4567/datos)
+###2. por Heroku local
+```heroku local web``` dirigiendo a la siguiente [ruta.](http://localhost:5000/)
+
+
+
+### En Despliegue:
+
+Para observar la aplicación en despliegue puede ejecutar el comando:
+
+````heroku open```
+
+desplegando una pestaña que redirige a la siguiente [ruta.](https://frozen-castle-59599.herokuapp.com/datos) 
 
 ##Información de la lista encadenada creada: ejemplo.
 
